@@ -1,0 +1,121 @@
+body {
+    padding-top: 56px; /* Adjust based on the height of your navbar */
+  }
+  
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .carousel-caption {
+    bottom: 50%;
+    transform: translateY(50%);
+    text-align: center;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-caption h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption h1 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .carousel-caption h1 {
+      font-size: 4rem;
+    }
+  }
+  
+
+/* Additional styles for project section */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+
+/* Additional styles for About Me section */
+#about {
+    background-color: #e0f7fa;
+    padding: 60px 0;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+/* Additional styles for blog section */
+#blog h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #blog .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  #blog .card-text {
+    font-size: 1rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f8f9fa;
+  }
+  
+  footer .social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  footer .social-icons a:hover {
+    color: #007bff;
+  }
+
+/* Additional styles for Navigation */
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  
