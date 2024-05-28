@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kago's Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Awesome fonts-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">KagoThipe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/kagothipe" target="_blank">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/kago-ronald-thipe/" target="_blank">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://medium.com/@kagothipe189" target="_blank">Medium</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Home Section -->
+  <header id="home">
+    <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#homeCarousel" data-slide-to="1"></li>
+        <li data-target="#homeCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('images/home/landing.jpg');">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Hi, I am Kago.</h1>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('images/home/wildlife.jpg');">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Welcome to my world of Data Science!</h1>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('images/home/code.jpg');">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Reach out and let us learn together..</h1>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Projects I have Worked On</h2>
+      <div class="row">
+        <!-- Project Tile 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+              <a href="https://github.com/kagothipe/2023-Apple-stock-prediction" target="_blank">
+                <img src="images/projects/stockmarket.jpg" class="card-img-top" alt="Project 1">
+              </a>
+              <div class="card-body">
+                <a href="https://github.com/kagothipe/2023-Apple-stock-prediction" target="_blank" class="text-decoration-none">
+                  <h5 class="card-title">Financial Stock Analysis and Prediction</h5>
+                </a>
+                <p class="card-text">In this project I analyzed historical stock price data to identify trends and forecasted future prices using LSTM model.</p>
+              </div>
+            </div>
+          </div>
+          
+        <!-- Project Tile 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+              <a href="https://github.com/kagothipe/Kaggle-datasets" target="_blank">
+                <img src="images/projects/mall.jpg" class="card-img-top" alt="Project 3">
+              </a>
+              <div class="card-body">
+                <a href="https://github.com/kagothipe/Kaggle-datasets" target="_blank" class="text-decoration-none">
+                  <h5 class="card-title">Customer Segmentation</h5>
+                </a>
+                <p class="card-text">Identified clusters of customers using K-Means. Task involved:
+
+                    Identification of number of clusters to be formed,
+                    Data Modelling and prepation and
+                    Visualization of the identifed clusters</p>
+              </div>
+            </div>
+          </div>
+        <!-- Project Tile 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+              <a href="https://github.com/kagothipe/Defaulting-Prediction" target="_blank">
+                <img src="images/projects/trust.jpg" class="card-img-top" alt="Project 3">
+              </a>
+              <div class="card-body">
+                <a href="https://github.com/kagothipe/Defaulting-Prediction" target="_blank" class="text-decoration-none">
+                  <h5 class="card-title">Default Prediction</h5>
+                </a>
+                <p class="card-text">In this task, We will be using data from a random sample of loans obtained from a peer-to-peer
+                    lending platform with the aim of helping the platform identify risky loan applicants more accurately.We
+                    will be using different Machine Learning models with different parameters and then finally choose the
+                    best model.</p>
+              </div>
+            </div>
+          </div>
+        <!-- Add more project tiles as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-5" style="background-color: #e0f7fa;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/about/my_image.jpg" class="img-fluid" alt="About Me">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <h2>About Me</h2>
+            <p>
+             "The stars are aligning", "This feels way too good to be true". These are some of the quotes I kept on saying to myslef after my first ineraction
+             with Data Related tasks. I graduated from Heriot Watt University with an Honours degree in Mathematics, and unfortunately I left University
+             without a clear career plan or knowledge of what to do with a Mathematics degree. But then what I knew I got from Mathematics was 
+             the ability to solve problems, think creatively and learn quickly so I then encouraged myself to to pursue a variety of online courses from Photoshopping skills,
+             to Product Development and many more but what eventually got my attention and desire was Data Analysis. For the first time, I felt I had found my true purpose.
+            </p>
+            <p>
+             Fortunately I had the opportunity to apply my newly found skills at Botswana Telecommunications Corporation. This experienece gave me the opportunity to work with real-world data,
+             understanding the limitations both the organisation and Human Resource can have when dealing with Data. I then decided to go Upksill myself in a more formal environment, that's was when I enrolled
+             for Masters in Data Science at University of Essex, and this is where I am currently at. The experience has been too good, learning is exciting and there is always 
+             a new challenge everyday.   
+            </p>
+            <p>
+              I am excited to share my learning process here, as well as potentially collaborate fore short term or long-term projects in here.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Articles, Blogs and Publications</h2>
+      <div class="row">
+        <!-- Blog Post 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/blog/1.png" class="card-img-top" alt="Blog 1">
+            <div class="card-body">
+              <h5 class="card-title">Blog Post Title 1</h5>
+              <p class="card-text">Brief description of the blog post.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Post 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/blog/2.png" class="card-img-top" alt="Blog 2">
+            <div class="card-body">
+              <h5 class="card-title">Blog Post Title 2</h5>
+              <p class="card-text">Brief description of the blog post.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Post 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/blog/3.png" class="card-img-top" alt="Blog 3">
+            <div class="card-body">
+              <h5 class="card-title">Blog Post Title 3</h5>
+              <p class="card-text">Brief description of the blog post.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-4">
+    <div class="container text-center">
+      <p>Thanks for reading, and feel free to reach out to me.</p>
+      <div class="social-icons">
+        <a href="https://x.com/ThipeKago" target="_blank" class="mx-2"><i class="fa-brands fa-x"></i></a>
+        <a href="#" target="_blank" class="mx-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/kago-ronald-thipe/" target="_blank" class="mx-2"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://medium.com/@kagothipe189" target="_blank" class="mx-2"><i class="fab fa-medium-m"></i></a>
+      </div>
+      <p class="mt-3">&copy; 2024. All rights reserved!</p>
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- FontAwesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- Custom JS -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
